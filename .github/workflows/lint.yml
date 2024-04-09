@@ -1,12 +1,12 @@
-name: lint
-run-name: ${{ github.actor }} is learning GitHub Actions 
-on: [push] 
-jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4 
-        with:
-          python: '3.7'
-      - run: npm install -g bats
-      - run: bats -v
+# name: lint
+# run-name: ${{ github.actor }} is learning GitHub Actions 
+# on: [push] 
+# jobs:
+#   check-bats-version:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4 
+#         with:
+#           python: '3.7'
+#       - run: npm install -g bats
+#       - run: bats -v
