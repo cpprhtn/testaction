@@ -27,6 +27,6 @@ jobs:
           echo "second hello!"
 
       - name: The job has succeeded
-        if: ${{ sucess() }}
+        if: ${{ success() }}
         run: echo "successfully completed"
     # deploy: #cloud
